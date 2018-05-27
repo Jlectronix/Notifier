@@ -1,0 +1,12 @@
+{
+  "extends": "standard",
+  "globals": {
+    "Notifier": true,
+    "ga": true,
+    "goog": true,
+    "google": true,
+    "Silica": true,
+    "localStorage": true,
+    "sessionStorage": true
+  }
+}
