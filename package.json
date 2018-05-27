@@ -1,0 +1,11 @@
+{
+  "name": "notifier",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Jlectronix/notifier.git",
+  "author": "John De Jesus",
+  "license": "MIT",
+  "dependencies": {
+    "silica": "^0.40.0"
+  }
+}
