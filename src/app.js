@@ -1,12 +1,11 @@
+goog.module('notifier')
 
-goog.module("notifier");
+const AppCntrl = goog.require('controllers.app')
 
-const AppCntrl = goog.require("controllers.app");
-
-window["Notifier"] = {
+window['Notifier'] = {
   AppCntrl: AppCntrl
 }
 
-Silica.setContext("Notifier");
-Silica.compile(document);
-Silica.apply(() => {});
+Silica.setContext('Notifier')
+Silica.compile(document)
+Silica.apply(() => {})
